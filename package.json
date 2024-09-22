@@ -1,0 +1,29 @@
+{
+  "name": "typecriptround",
+  "version": "1.0.0",
+  "description": "typescript practive",
+  "main": "index.tsx",
+  "scripts": {
+   "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AditiChandra18/typescriptPractice.git"
+  },
+  "author": "Aditi Chandra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AditiChandra18/typescriptPractice/issues"
+  },
+  "homepage": "https://github.com/AditiChandra18/typescriptPractice#readme",
+  "dependencies": {
+    "@testing-library/jest-dom": "^6.5.0",
+    "axios": "^1.7.7"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.13",
+    "@types/mocha": "^10.0.8",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5"
+  }
+}
