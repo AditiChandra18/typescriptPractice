@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "module": "commonjs",
+      "strict": true,
+      "jsx": "react", // or "react-jsx" for React 17+
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "forceConsistentCasingInFileNames": true,
+      "moduleResolution": "node",
+      "skipLibCheck": true,
+      "resolveJsonModule": true,
+      "noEmit": true,
+      "allowImportingTsExtensions": true 
+    },
+    "include": ["src/**/*"], // Adjust based on your project structure
+    "exclude": ["node_modules"]
+  }
