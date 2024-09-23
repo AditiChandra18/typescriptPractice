@@ -16,7 +16,7 @@ export const filterData = (data: CountriesDataType[]): CountriesDataType[] => {
   });
 };
 
-const getData = async (): Promise<CountriesDataType[]> => {
+export const getData = async (): Promise<CountriesDataType[]> => {
   try {
     const result = await axios.get(`${URL}`);
     const { data } = result.data;
